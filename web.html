@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik+Iso&display=swap" rel="stylesheet">
     <title>Страничка обо мне</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612597499_83-p-fistashkovii-fon-akvarel-170.jpg);
+            font-family: 'Comfortaa', cursive;
+        }
+
+        .main {
+            margin: 50px 100px;
+            padding: 25px;
+            background-color: white;
+            border-radius: 50px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        #start {
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Rubik Iso', cursive;
+            color:rgb(54, 95, 54);
+        }
+
+        .description {
+            text-align: center;
+            color: rgb(108, 108, 108);
+        }
+
+        ul {
+            list-style-type:square;
+        }
+
+        thead {
+            background-color: rgb(174, 239, 217);
+        }
+
+        tbody {
+            background-color: beige;
+        }
+
+        .title-list {
+            font-size: 20px;
+            color:rgb(54, 95, 54);
+        }
+
+        a:hover {
+            color: coral;
+        }
+
+        a:active {
+            color: aquamarine;
+        }
+
+    </style>
 </head>
+
 <body>
-    <div>
-        <section>
+    <div class="main">
+        <section class="description">
             <h1 id="start">Страничка обо мне</h1>
             <p>Тут должно быть очень много текста, но я его не придумала.</p>
             <h2>Меня зовут Вика :)</h2>
@@ -19,7 +80,7 @@
         </section>
 
         <section>
-            <h3>Что я делаю, когда я ничего не делаю</h3>
+            <h4 class="title-list">Что я делаю, когда я ничего не делаю</h4>
 
             <p>
                 На самом деле, у меня нет хобби, 
@@ -27,7 +88,7 @@
                 что поможет создать иллюзию наполненности у этой страницы.
             </p>
 
-            <h4>Топ жанров фильмов и сериалов</h4>
+            <h4 class="title-list">Топ жанров фильмов и сериалов</h4>
 
             <ol>
                 <li>Ужасы</li>
@@ -37,7 +98,7 @@
                 <li>Фантастика</li>
             </ol>
 
-            <h4>Топ жанров книг</h4>
+            <h4 class="title-list">Топ жанров книг</h4>
             
             <ul>
                 <li>Фэнтези</li>
@@ -46,6 +107,7 @@
                 <li>Детективы</li>
                 <li>Фантастика</li>
             </ul>
+            
             <h5>
                 Лирическое отступление: <br>
                 Если вам надоело это читать, то cкорее смотрите на <a href="https://www.youtube.com/watch?v=gc86bBbu8Gw">котиков</a>
@@ -53,7 +115,7 @@
         </section>
 
         <section>
-            <h3>Список сериалов</h3>
+            <h4 class="title-list">Список сериалов</h4>
             <table border="2">
                 <thead>
                     <tr>
@@ -147,7 +209,7 @@
         </section>
 
         <section>
-            <h3>Котик для поднятия настроения</h3>
+            <h3 class="title-list">Котик для поднятия настроения</h3>
             <img src="https://i08.fotocdn.net/s120/b4a0febe1043eccb/public_pin_l/2742790978.jpg" alt="Котик">
             <p>
                 <a href="#start">Вернуться в начало </a> 
